@@ -13,7 +13,7 @@ python 版本 Python 2.7.13
 
 运行命令：cd到main文件所在目录
 
-然后执行>pyton main.py
+然后执行>python main.py
 
 当屏幕输出 foundface时，按下space拍照
 
