@@ -11,8 +11,8 @@ if not os.path.exists(storageDir): os.mkdir(storageDir)
 storageNowPicDir = "picture"
 if not os.path.exists(storageNowPicDir): os.mkdir(storageNowPicDir)
 
-API_KEY = "<<your face++ api key>>"
-API_SECRET = "<<your face++ api secret>>"
+API_KEY = "<<your key>>"
+API_SECRET = "<<your sercret>>"
 
 source_pic = "./source_pic/test.jpg"#标准图像
 nowpic = "./picture/test.jpg"#需要认证的图像

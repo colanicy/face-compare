@@ -1,8 +1,5 @@
 import cv2, os
 
-API_KEY = "MT8PUbZ-OiWlYNSa4Ge72SZxua9jOpS5"
-API_SECRET = "aK9SstvkPtfeEJPScLASLePc7DaCeGTt"
-
 faceCascade = cv2.CascadeClassifier(os.path.join('Lib', 'haarcascade_frontalface_default.xml'))
 
 def take_picture(name="test",storageDir='picture'):
@@ -18,6 +15,10 @@ def take_picture(name="test",storageDir='picture'):
         faces = detect_face(img)
         if len(faces) == 1:
                 print('Face found')
+                cv2.imwrite(os.path.join(storageDir, '%s.jpg'%name), img)
+                cv2.imshow('Capture Image', img)
+                print('The picture tacked!!!')
+                break
         elif not faces:
             print('No face found')
         else:
@@ -25,11 +26,6 @@ def take_picture(name="test",storageDir='picture'):
         key = cv2.waitKey(1) & 0xFF
         if key == ord('q'):
             break
-        elif key == ord(' '):
-            if len(faces) == 1:
-                cv2.imwrite(os.path.join(storageDir, '%s.jpg'%name), img)
-                cv2.imshow('Capture Image', img)
-                print('The picture tacked!!!')
     cap.release()
     cv2.destroyAllWindows()
     return os.path.join(storageDir, '%s.jpg'%name)

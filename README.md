@@ -1,6 +1,7 @@
 # face-compare
 
 将视频抓拍到的人脸图像，与存有的人脸图像进行比对。
+![image](https://github.com/colanicy/face-compare/facecompare.gif)
 
 ## 运行环境：
 
@@ -24,8 +25,8 @@ API_SECRET = "<<your secret>>"
 
 然后执行>python main.py
 
-当屏幕输出 foundface时，按下space拍照
-
 最后屏幕输出比对结果。
+
+退出循环请按Q
 
 注意：比对的目标文件是source_pic/test.jpg,你可以把这个文件更换为你自己的照片进行比对。
