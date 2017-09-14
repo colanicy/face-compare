@@ -1,7 +1,8 @@
 # face-compare
 
 将视频抓拍到的人脸图像，与存有的人脸图像进行比对。
-![image](https://github.com/colanicy/face-compare/facecompare.gif)
+
+![image](https://github.com/colanicy/face-compare/blob/master/facecompare.gif)
 
 ## 运行环境：
 
