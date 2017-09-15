@@ -6,7 +6,7 @@
 
 运行效果图
 
-![image](https://github.com/colanicy/face-comapre/blog/master/facecompare.jpg)
+![image](https://github.com/colanicy/face-compare/blob/master/facecompare.jpg)
 
 ## 运行环境：
 
