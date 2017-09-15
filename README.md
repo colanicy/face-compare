@@ -4,6 +4,10 @@
 
 ![image](https://github.com/colanicy/face-compare/blob/master/facecompare.gif)
 
+运行效果图
+
+![image](https://github.com/colanicy/face-comapre/blog/master/facecompare.jpg)
+
 ## 运行环境：
 
 opencv 版本opencv_python-3.1.0-cp27-cp27m-win32
