@@ -34,7 +34,7 @@ API_SECRET = "<<your secret>>"
 
 注意：比对的目标文件是source_pic/test.jpg,你可以把这个文件更换为你自己的照片进行比对。
 
-# First手势识别测试 main_gesture.py
+# Second手势识别测试 main_gesture.py
 
 将视频抓怕到的手势进行识别，并指出其含义。可用于基于手势的人机交互。
 ![image](https://github.com/colanicy/face-compare/blob/master/gesture2.gif)
