@@ -75,9 +75,9 @@ cv2.imwrite("wif.jpg",gestureImg)
 cv2.namedWindow("gesture",cv2.WINDOW_NORMAL)
 
 #手势识别
-key = "<<your key>>"
-secret = "<<your secret>>"
-api = API(key, secret)
+API_KEY = "<<your key>>"
+API_SECRET = "<<your secret>>"
+api = API(API_KEY, API_SECRET)
 
 gesture = api.gesture(image_file = File("wif.jpg"))
 
