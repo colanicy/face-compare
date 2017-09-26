@@ -39,7 +39,8 @@ API_SECRET = "<<your secret>>"
 将视频抓怕到的手势进行识别，并指出其含义。可用于基于手势的人机交互。
 ![image](https://github.com/colanicy/face-compare/blob/master/gesture2.gif)
 
-##操作
+## 操作
+
 运行命令：cd到main_face文件所在目录
 
 然后执行>python main_gesture.py
